@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Yan Shi</title>
+    <link rel="stylesheet" href="resources/style.css">
+    <script type="text/javascript" src="js/key-count.js"></script>
+    <script type="text/javascript" src="js/palindrome.js"></script>
+</head>
+<body>
+<div class="form-container">
+    <form>
+        <h1>Key Count</h1>
+        <div class="inset">
+            <p>
+                <label for="keyCountMessage">Text Area</label>
+                <textarea id="keyCountMessage" name="message" class="input-field"
+                        placeholder="All float will be parsed to integer. Negative number is valid input."></textarea>
+            </p>
+        </div>
+        <p class="p-container">
+            <button type="button" onclick="calculateKeyCount()">Calculate</button>
+        </p>
+    </form>
+</div>
+
+
+<div class="form-container">
+    <form>
+        <h1>Result</h1>
+        <div class="inset">
+            <p>
+                <label for="resultMessage">Text Area</label>
+                <textarea id="resultMessage" name="message"
+                          placeholder="Please input your calculation"
+                          class="result-field" readonly></textarea>
+            </p>
+        </div>
+    </form>
+</div>
+
+<div class="form-container">
+    <form>
+        <h1>Palindrome</h1>
+        <div class="inset">
+            <p>
+                <label for="palindromeMessage">Text Area</label>
+                <textarea id="palindromeMessage" name="message" class="input-field"></textarea>
+            </p>
+        </div>
+        <p class="p-container">
+            <button type="button" onclick="calculatePalindrome()">Calculate</button>
+        </p>
+    </form>
+</div>
+</body>
+</html>
